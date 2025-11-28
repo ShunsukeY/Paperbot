@@ -1,0 +1,22 @@
+# venv
+.venv/
+venv/
+
+# Python キャッシュ
+__pycache__/
+*.pyc
+
+# ログ・一時ファイル（将来増えたとき用）
+*.log
+*.tmp
+
+# データベース等を置くなら
+data/
+*.db
+
+# エディタ
+.vscode/
+
+# 環境変数ファイル（使うなら）
+.gmail_env
+config_local.py
